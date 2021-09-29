@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(237, 237, 238);
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+    list-style: none;
+  }
+
+  .botonGenerico {
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+  }
+  .botonGenerico:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .mainButton {
+    background-color: #1b38b7;
+    color: white;
+  }
+
+  .tablaRegistroVenta{
+      text-align: center;
+  }
