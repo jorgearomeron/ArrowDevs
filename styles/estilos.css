@@ -49,6 +49,10 @@ button{
     color: white;
   }
 
-  .tablaRegistroVenta{
-      text-align: center;
+  .formVentas{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 20px;
   }

@@ -34,37 +34,26 @@
     </header>
 
     <main>
-        <table border="1" class="tablaRegistroVenta">
-            <tr>
-                <td>Código</td>
-                <td>Producto</td>
-                <td>Cantidad</td>
-                <td>Valor total</td>
-            </tr>
-            <tr>
-                <td>
-                    <form >
-                        <input name="codigo" type="number" size="10">
-                    </form>
-                </td>
-                <td>
-                    <form >
-                        <input name="producto" type="text" size="10">
-                    </form>
-                </td>
-                <td>
-                    <form >
-                        <input name="cantidad" type="number" size="10">
-                    </form>
-                </td>
-                <td>
-                    <form >
-                        <input name="valor" type="number" size="10">
-                    </form>
-                </td>
-            </tr>
-        </table>
-        <button>Registrar producto</button>
+        <form>
+            <div class="formVentas">
+                <label htmlFor="codigo">
+                    Código:
+                    <input type="number" min="1" name="codigo">
+                </label>
+                <label htmlFor="nombre">
+                    Nombre:
+                    <input type="text" name="nombre">
+                </label>
+                <label htmlFor="cantidad">
+                    Cantidad:
+                    <input type="number" min="1" name="cantidad">
+                </label>
+                <label htmlFor="valor">
+                    Valor:
+                    <input type="number" min="1" name="valor">
+                </label>
+            </div>
+        </form>
 
     </main>
 
