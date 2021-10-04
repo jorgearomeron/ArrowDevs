@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar Usuarios</title>
+    <link rel="stylesheet" href="../styles/estilos.css">
+</head>
+<body>
+    <header>
+        <ul class="navbar">
+            <li>
+                <img src="../media/logo.ico" alt="logo ArrowDevs" class="logo">
+            </li>
+            <a href="HomeUsuarios.html">
+                <li>
+                    <button class="botonGenerico mainButton">Volver</button>
+                </li>
+            </a>
+            <a href="ListaTrabajadores.html">
+                <li>
+                    <button class="botonGenerico mainButton">Lista de trabajadores</button>
+                </li>
+            </a>
+            
+            <a href="./buscar.html">
+                <li>
+                    <button class="botonGenerico mainButton">Actualizar</button>
+                </li>
+            </a>
+            
+        </ul>
+    </header>
+    <div class="contenedor">
+        <form>
+            <label for="Actualizar">Dato a actualizar</label><br>
+                <select name="Actualizar" id="Actualizar"><br>
+                    <option value="0">Codigo</option>
+                    <option value="1">Nombre(s)</option>
+                    <option  value="2">Apellido(s)</option>
+                    <option value="3">E-mail</option>
+                </select> <br> <br>
+
+                <label for="Comentario">Dato Anterior</label><br>
+                <textarea id="Comentario" name="Comentario" rows="2" cols="30">
+                </textarea><br> <br>
+
+                <label for="Comentario2">Nuevo Dato</label><br>
+                <textarea id="Comentario2" name="Comentario2" rows="2" cols="30">
+                </textarea> <br><br>
+
+                <input type="submit" class="button" name="Actualizar" onclick="actualizarDatos()" value="actualizar">
+          
+                <script>
+                    function actualizarDatos() {
+                    alert("Datos Actualizados");
+                    }
+                </script>
+    
+</body>
+</html>
